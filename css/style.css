@@ -1,0 +1,407 @@
+html, body { margin: 0px; padding: 0px; border: 0px; }
+
+.menu{
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  font-family: 'Unica One', cursive;
+  font-size: 20px;
+  background: rgba(15, 20, 15, 0.8);
+  margin: 0;
+  z-index: 1;
+}
+.nav{
+  position: relative;
+  margin-top: 15px;
+}
+.nav li{
+  text-decoration: none;
+  display: inline-block;
+}
+.nav li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+.nav li a:hover{
+  color: #53b6d0;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+
+.container{
+  height: 55px;
+}
+.home {
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 88vh;
+  position: relative;
+
+
+
+}
+.iam{
+  font-family: 'Nothing You Could Do', cursive;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 0vh;
+  /*padding-top: calc((100vh - 200px - 55px)/2 + 55px);*/
+}
+#home-intro {
+  position: fixed;
+  width: 80%;
+  height: 50vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.intro{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.index {
+  background-image: url(../images/6.jpg);
+  opacity: 0.9;
+  position: relative;
+}
+
+.btn-mine:hover{
+  background-color: #ed8c72;
+  color: white;
+}
+#btn-mine{
+  text-align: center;
+}
+.btn-mine{
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: Transparent;
+  color: black;
+  font-size: 30px;
+  padding: 0 10px;
+  margin-top: 15px;
+  font-family: 'Unica One', cursive;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.photo {
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: calc(100vh - 55px);
+  min-height: 550px;
+  position: relative;
+
+
+}
+.containers {
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: calc(100vh - 55px);
+  min-height: 550px;
+  position: relative;
+  -webkit-transfrom:translate3d(0,0,0);
+  -moz-transfrom:translate3d(0,0,0);
+  -o-transfrom:translate3d(0,0,0);
+  -ms-transfrom:translate3d(0,0,0);
+  transfrom:translate3d(0,0,0);
+  -webkit-backface-visibility:hidden;
+  -moz-transition:transform 1.5s ease-in-out;
+  -o-transition:transform 1.5s ease-in-out;
+  -ms-transition:transform 1.5s ease-in-out;
+  transition:transform 1.5s ease-in-out;
+}
+
+.education {
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: calc((100vh - 55px)/2);
+  min-height: 450px;
+  position: relative;
+  background-color: #FFFFFF;
+  z-index: 0;
+}
+#education {
+  opacity: 0.8;
+  position: absolute;
+  width: 75%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  font-size: 1.8rem;
+}
+.media-body{
+  padding-left: 50px;
+}
+
+
+
+.experience {
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: calc((100vh - 55px)/2);
+  min-height: 450px;
+  position: relative;
+  background-color: #2F496E;
+  z-index: 0;
+}
+
+#experience{
+  opacity: 0.8;
+  position: absolute;
+  width: 80%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 1.8rem;
+}
+#experience .col-md-4{
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+
+.skill {
+  background-attachment: fixed;
+  height: 80vh;
+  min-height: 450px;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+
+
+
+.portfolio_0{
+  background-color: rgba(50, 49, 49, 0.8);;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: auto;
+  padding-top: 50px;
+
+}
+#project{
+  opacity: 0.8;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+
+.portfolio_2{
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: auto;
+  padding-top: 30px;
+
+}
+#website{
+  opacity: 0.8;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+/*
+.portfolio_3{
+  background-color: #2F3131;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 888px;
+  position: relative;
+  overflow: auto;
+
+}
+#logo{
+  opacity: 0.8;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.portfolio_4{
+  background-color: #2F3131;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 888px;
+  position: relative;
+  overflow: auto;
+
+}
+#others{
+  opacity: 0.8;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
+
+/*.photo span {
+  bottom: 0;
+  color: white;
+  display: block;
+  left: 50%;
+  margin-left: -640px;
+  font-size: 38px;
+  padding: 10px;
+  position: absolute;
+  text-shadow: 0 2px 0 black, 0 0 10px black;
+  width: 100vh;
+}*/
+
+
+
+/*
+.about {
+  background-color: #2988bc;
+}
+.educations {
+  background-color: #ed8c72;
+
+}
+*/
+
+
+
+
+.social{
+  display: inline-block;
+  float: left;
+  list-style: none;
+  position: fixed;
+  z-index: 999;
+  padding: 0px;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-top: calc((100vh - 255px)/2 + 55px - 160px);
+  background-color: rgba(25, 30, 45, 0.2);
+  border-radius: 5px;
+}
+.social li{
+  text-decoration: none;
+  line-height: 4.533em;
+}
+.social li a{
+  color: #ed8c72;
+  text-decoration: none;
+  padding: 20px;
+}
+.social li a:hover{
+  color: white;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+   .iam { font-size: 2.3em; }
+   .intro {font-size: 1.4em;}
+
+   .social{
+     padding-top: 10px;
+     margin-left: 0px;
+     margin-top: 0;
+     font-size: 0.8rem;
+     background-color: rgba(25, 30, 45, 0);
+   }
+   .social li{
+     line-height: 2.533em;
+   }
+
+   .media-top{
+     display: none !important;
+   }
+
+   .experience {
+     height: calc(100vh - 55px);
+   }
+   .education {
+     height: calc(100vh - 55px);
+   }
+   #education {
+     opacity: 1;
+     width: 75%;
+     font-size: 1.4rem;
+
+   }
+   #experience{
+     width: 75%;
+     font-size: 1.5rem;
+   }
+   #experience .col-md-4{
+     font-size: 2rem;
+   }
+   .thumbnail{
+     width: 100%;
+   }
+   .media-body{
+     padding-left: 0px;
+   }
+
+   /*.portfolio{
+     margin-top: 0px;
+   }*/
+
+  #portfolio{
+    padding-top: 2rem  ;
+    top: auto;
+    transform: none;
+  }
+}
+.bubbleChart {
+      min-width: 100px;
+      max-width: 700px;
+      height: 700px;
+      margin: 0 auto;
+}
+.bubbleChart svg{
+  background: #fff;
+}
+
+
+/*.footer{
+  position: fixed;
+  height: 200px;
+  bottom: 0;
+  width: 100%;
+  background: rgba(15, 20, 15, 0.8);
+  z-index: 1;
+}*/
