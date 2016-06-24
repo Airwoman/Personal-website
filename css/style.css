@@ -48,7 +48,7 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 .iam{
   font-family: 'Nothing You Could Do', cursive;
   color: white;
-  font-size: 5rem;
+  font-size: 8rem;
   text-align: center;
   margin-top: 0vh;
   /*padding-top: calc((100vh - 200px - 55px)/2 + 55px);*/
@@ -67,6 +67,10 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   color: white;
   font-size: 2.2rem;
   text-align: center;
+  line-height: 3.5rem;
+}
+.intro strong{
+  color: #ed8c72;
 }
 .index {
   background-image: url(../images/6.jpg);
@@ -75,17 +79,16 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 }
 
 .btn-mine:hover{
-  background-color: #ed8c72;
   color: white;
 }
 #btn-mine{
+  margin-top: 12vh;
   text-align: center;
 }
 .btn-mine{
   border-radius: 5px;
-  border: 2px solid white;
   background-color: Transparent;
-  color: black;
+  color: rgba(45, 45, 50, 0.8);;
   font-size: 30px;
   padding: 0 10px;
   margin-top: 15px;
@@ -148,8 +151,6 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   padding-left: 50px;
 }
 
-
-
 .experience {
   background-attachment: fixed;
   background-position: 50% 0;
@@ -192,7 +193,7 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 
 
 .portfolio_0{
-  background-color: rgba(50, 49, 49, 0.8);;
+  background-color: rgba(50, 49, 49, 1);;
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -228,75 +229,35 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   margin-right: auto;
   position: relative;
 }
-/*
-.portfolio_3{
-  background-color: #2F3131;
+
+.contact {
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  height: 100vh;
-  min-height: 888px;
+  height: 80vh;
+  min-height: 450px;
   position: relative;
-  overflow: auto;
-
-}
-#logo{
-  opacity: 0.8;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.portfolio_4{
-  background-color: #2F3131;
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  height: 100vh;
-  min-height: 888px;
-  position: relative;
-  overflow: auto;
-
-}
-#others{
-  opacity: 0.8;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}*/
-
-/*.photo span {
-  bottom: 0;
-  color: white;
-  display: block;
-  left: 50%;
-  margin-left: -640px;
-  font-size: 38px;
-  padding: 10px;
-  position: absolute;
-  text-shadow: 0 2px 0 black, 0 0 10px black;
-  width: 100vh;
-}*/
-
-
-
-/*
-.about {
   background-color: #2988bc;
+  z-index: 0;
 }
-.educations {
-  background-color: #ed8c72;
 
+#contact{
+  opacity: 0.9;
+  position: absolute;
+  width: 80%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 2rem;
 }
-*/
-
-
+.all-text{
+  color: black;
+  font-size: 2rem;
+}
 
 
 .social{
