@@ -41,6 +41,7 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   background-repeat: no-repeat;
   height: 88vh;
   position: relative;
+  z-index: -1;
 
 
 
@@ -60,7 +61,6 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: -1;
 }
 .intro{
   font-family: 'Josefin Sans', sans-serif;
@@ -68,6 +68,7 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   font-size: 2.2rem;
   text-align: center;
   line-height: 3.5rem;
+
 }
 .intro strong{
   color: #ed8c72;
@@ -88,44 +89,47 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 .btn-mine{
   border-radius: 5px;
   background-color: Transparent;
-  color: rgba(45, 45, 50, 0.8);;
+  color: rgba(45, 45, 50, 1);;
   font-size: 30px;
   padding: 0 10px;
   margin-top: 15px;
   font-family: 'Unica One', cursive;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-}
-
-.photo {
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  height: calc(100vh - 55px);
-  min-height: 550px;
-  position: relative;
-
+  z-index: -1;
 
 }
-.containers {
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  height: calc(100vh - 55px);
-  min-height: 550px;
-  position: relative;
-  -webkit-transfrom:translate3d(0,0,0);
-  -moz-transfrom:translate3d(0,0,0);
-  -o-transfrom:translate3d(0,0,0);
-  -ms-transfrom:translate3d(0,0,0);
-  transfrom:translate3d(0,0,0);
-  -webkit-backface-visibility:hidden;
-  -moz-transition:transform 1.5s ease-in-out;
-  -o-transition:transform 1.5s ease-in-out;
-  -ms-transition:transform 1.5s ease-in-out;
-  transition:transform 1.5s ease-in-out;
-}
 
+.transition-edu{
+  height: 20vh;
+  background-color: #fff;
+  z-index: 1000;
+}
+.transition-line{
+  border-bottom: 1px solid grey;
+  width: 15vh;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.transition-middleline{
+  border-right: 1px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1px;
+  height: 10vh;
+
+}
+.transition-content{
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+
+}
 .education {
   background-attachment: fixed;
   background-position: 50% 0;
