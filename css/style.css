@@ -99,10 +99,16 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   z-index: -1;
 
 }
-
 .transition-edu{
   height: 20vh;
   background-color: #fff;
+}
+.transition-edus{
+  height: 5vh;
+  background-color: #fff;
+}
+
+.transition-edu, .transition-edus, .transition-exp, .transition-pro, .transition-cont{
   z-index: 1000;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
@@ -110,51 +116,50 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 }
 .transition-exp{
   height: 20vh;
-  color: #fff;
   background-color: #2F496E;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5em;
-  font-weight: 900;
+  color: #fff;
+}
+.transition-exps{
+  height: 5vh;
+  background-color: #2F496E;
 }
 .transition-pro{
   height: 20vh;
-  color: #fff;
   background-color: rgba(50, 49, 49, 1);
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5em;
-  font-weight: 900;
+  color: #fff;
+}
+.transition-pros{
+  height: 5vh;
+  background-color: rgba(50, 49, 49, 1);
 }
 .transition-cont{
   height: 20vh;
-  color: #fff;
   background-color: #2988bc;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5em;
-  font-weight: 900;
+  color: #fff;
+}
+.transition-conts{
+  height: 5vh;
+  background-color: #2988bc;
 }
 .transition-lines{
   border-bottom: 1px solid #fff;
-  width: 15vh;
-  height: 1px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.transition-middlelines{
-  border-right: 1px solid #fff;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1px;
-  height: 10vh;
 }
 .transition-line{
   border-bottom: 1px solid grey;
+}
+.transition-middlelines{
+  border-right: 1px solid #fff;
+}
+.transition-middleline{
+  border-right: 1px solid grey;
+}
+.transition-line, .transition-lines{
   width: 15vh;
   height: 1px;
   margin-left: auto;
   margin-right: auto;
 }
-.transition-middleline{
-  border-right: 1px solid grey;
+.transition-middleline, .transition-middlelines{
   margin-left: auto;
   margin-right: auto;
   width: 1px;
