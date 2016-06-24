@@ -104,6 +104,47 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   height: 20vh;
   background-color: #fff;
   z-index: 1000;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.transition-exp{
+  height: 20vh;
+  color: #fff;
+  background-color: #2F496E;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.transition-pro{
+  height: 20vh;
+  color: #fff;
+  background-color: rgba(50, 49, 49, 1);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.transition-cont{
+  height: 20vh;
+  color: #fff;
+  background-color: #2988bc;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.transition-lines{
+  border-bottom: 1px solid #fff;
+  width: 15vh;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.transition-middlelines{
+  border-right: 1px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1px;
+  height: 10vh;
 }
 .transition-line{
   border-bottom: 1px solid grey;
@@ -118,16 +159,13 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   margin-right: auto;
   width: 1px;
   height: 10vh;
-
 }
 .transition-content{
   margin-top: 2vh;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5em;
-  font-weight: 900;
+
 
 }
 .education {
