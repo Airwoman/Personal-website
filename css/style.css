@@ -423,6 +423,13 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
    #contact-name{
      border-left: 0px solid #fff;
    }
+   .aboutme {
+
+     height: 90vh;
+     line-height: 20px;
+
+
+   }
 
 
 
