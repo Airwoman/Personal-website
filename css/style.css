@@ -43,8 +43,6 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   position: relative;
   z-index: -1;
 
-
-
 }
 .iam{
   font-family: 'Nothing You Could Do', cursive;
@@ -96,12 +94,13 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   font-family: 'Unica One', cursive;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  z-index: -1;
+  z-index: 1;
 
 }
 .transition-edu{
   height: 20vh;
   background-color: #fff;
+  z-index: 5;
 }
 .transition-edus{
   height: 5vh;
@@ -230,7 +229,7 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 
 .skill {
   background-attachment: fixed;
-  height: 80vh;
+  height: 90vh;
   min-height: 450px;
   position: relative;
   background-color: #FFFFFF;
@@ -281,7 +280,7 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 60vh;
   min-height: 450px;
   position: relative;
   background-color: #2988bc;
@@ -289,6 +288,7 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 }
 
 #contact{
+  color: #fff;
   opacity: 0.9;
   position: absolute;
   width: 80%;
@@ -296,14 +296,16 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  text-align: justify;
   font-family: 'Josefin Sans', sans-serif;
-  color: white;
-  font-size: 2rem;
 }
-.all-text{
-  color: black;
+#alltext{
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
   font-size: 2rem;
+  padding: 25px;
+  font-family: fantasy;
+  line-height: 50px;
+  border-right: 1px solid #fff;
 }
 
 
@@ -370,9 +372,12 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
      font-size: 1.4rem;
 
    }
+   .media-heading{
+     font-size: 20px;
+   }
    #experience{
      width: 75%;
-     font-size: 1.5rem;
+     font-size: 1.4rem;
    }
    #experience .col-md-4{
      font-size: 2rem;
@@ -383,6 +388,16 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
    .media-body{
      padding-left: 0px;
    }
+   #alltext{
+     color: #fff;
+     text-shadow: 1px 1px 1px #000;
+     font-size: 1.8rem;
+     padding: 25px;
+     font-family: fantasy;
+     line-height: 50px;
+     border-right: 0px solid #fff;
+   }
+
 
    /*.portfolio{
      margin-top: 0px;
@@ -396,8 +411,8 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 }
 .bubbleChart {
       min-width: 100px;
-      max-width: 700px;
-      height: 700px;
+      max-width: 600px;
+      height: 600px;
       margin: 0 auto;
 }
 .bubbleChart svg{
