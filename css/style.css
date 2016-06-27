@@ -35,10 +35,17 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 .container{
   height: 55px;
 }
-.home {
+.home, .aboutme , .education, .experience, .portfolio_0, .portfolio_2, .contact{
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
+}
+.aboutme , .education, .skill, .experience, .contact{
+  min-height: 450px;
+  position: relative;
+}
+
+.home {
   height: 88vh;
   position: relative;
   z-index: -1;
@@ -117,6 +124,11 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   background-color: #323232;
 }
 
+.transition-line, .transition-lines, .transition-middleline, .transition-middlelines, .transition-content, #website, #project{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .transition-edu, .transition-edus, .transition-exp, .transition-pro, .transition-cont, .transition-aboutme{
   z-index: 1000;
   font-family: 'Josefin Sans', sans-serif;
@@ -165,32 +177,29 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 .transition-line, .transition-lines{
   width: 15vh;
   height: 1px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .transition-middleline, .transition-middlelines{
-  margin-left: auto;
-  margin-right: auto;
   width: 1px;
   height: 10vh;
 }
 .transition-content{
   margin-top: 2vh;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-
-
+}
+#education, #experience, #contact {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -mos-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: justify;
 }
 
-
 .aboutme {
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
   height: calc((100vh - 55px)/2);
-  min-height: 450px;
-  position: relative;
   background-color: #323232;
   color: #fff;
   line-height: 25px;
@@ -201,24 +210,14 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 }
 
 .education {
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
   height: calc((100vh - 55px)/2);
-  min-height: 450px;
-  position: relative;
   background-color: #FFFFFF;
   z-index: 0;
 }
 #education {
   opacity: 0.8;
-  position: absolute;
   width: 75%;
   height: auto;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: justify;
   font-size: 1.8rem;
 }
 .media-body{
@@ -226,25 +225,15 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 }
 
 .experience {
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
   height: calc((100vh - 55px)/2);
-  min-height: 450px;
-  position: relative;
   background-color: #2F496E;
   z-index: 0;
 }
 
 #experience{
   opacity: 0.8;
-  position: absolute;
   width: 80%;
   height: auto;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: justify;
   font-family: 'Josefin Sans', sans-serif;
   color: white;
   font-size: 1.8rem;
@@ -254,43 +243,25 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   font-weight: bolder;
 }
 
-
 .skill {
   background-attachment: fixed;
   height: 90vh;
-  min-height: 450px;
-  position: relative;
   background-color: #FFFFFF;
 }
 
-
-
-
 .portfolio_0{
   background-color: rgba(50, 49, 49, 1);;
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
   position: relative;
   overflow: auto;
   padding-top: 50px;
-
 }
 #project{
   opacity: 0.8;
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
 }
-
-
-
 .portfolio_2{
   background-color: #fff;
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
   position: relative;
   overflow: auto;
   padding-top: 30px;
@@ -299,18 +270,11 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 #website{
   opacity: 0.8;
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
 }
 
 .contact {
-  background-attachment: fixed;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
   height: 50vh;
-  min-height: 450px;
-  position: relative;
   background-color: #2988bc;
   z-index: 0;
 }
@@ -318,12 +282,8 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
 #contact{
   color: #fff;
   opacity: 0.9;
-  position: absolute;
   width: 80%;
   height: auto;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   font-family: 'Josefin Sans', sans-serif;
 }
 #alltext{
@@ -367,6 +327,7 @@ html, body { margin: 0px; padding: 0px; border: 0px; }
   color: white;
   -webkit-transition: 0.7s;
   -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
   -o-transition: 0.7s;
   transition: 0.7s;
 }
