@@ -133,8 +133,6 @@
         .enter().append("g")
         .attr("class", function (d) {return ["node", options.data.classed(d.item)].join(" ");});
 
-console.log(node);
-
       var fnColor = d3.scale.category20();
       node.append("circle")
         .attr({r: function (d) {return d.r;}, cx: function (d) {return d.cx;}, cy: function (d) {return d.cy;}})

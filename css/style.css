@@ -62,6 +62,7 @@ html, body {
     position: relative;
     z-index: -1
 }
+
 .iam {
     font-family: 'NothingYouCouldDo', cursive;
     color: white;
@@ -118,8 +119,8 @@ html, body {
 .transition-edu, .transition-edus, .transition-exp, .transition-pro, .transition-cont, .transition-aboutme {
     z-index: 1000;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 1200;
+    font-size: 2.rem;
+    font-weight: 900;
 }
 .transition-exp {
     height: 20vh;
