@@ -89,7 +89,8 @@ html, body {
     color: #ed8c72
 }
 .index {
-    background-image: url(../images/6.jpg);
+    background: rgb(31,126,163);
+    /*background-image: url(../images/6.jpg);*/
     opacity: .9;
     position: relative
 }
@@ -288,7 +289,7 @@ html, body {
     padding: 0;
     padding-top: 20px;
     margin-left: 10px;
-    margin-top: calc((100vh - 255px)/2+55px - 160px);
+    margin-top: 30vh;
     background-color: rgba(25, 30, 45, 0.2);
     border-radius: 5px
 }
