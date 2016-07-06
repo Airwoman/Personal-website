@@ -1,4 +1,7 @@
-$(document).ready(function () {
+
+setTimeout(runlater(), 5000);
+function runlater() {
+  // This will fire when the document is ready.
   var bubbleChart = new d3.svg.BubbleChart({
     supportResponsive: true,
     //container: => use @default
@@ -98,4 +101,4 @@ $(document).ready(function () {
         }
       }]
   });
-});
+}
